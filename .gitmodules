@@ -1,0 +1,15 @@
+[submodule "models/pytorch-deeplab-xception"]
+	path = models/pytorch-deeplab-xception
+	url = https://github.com/jfzhang95/pytorch-deeplab-xception
+[submodule "models/PyTorch-YOLOv3"]
+	path = models/PyTorch-YOLOv3
+	url = https://github.com/eriklindernoren/PyTorch-YOLOv3
+[submodule "models/pytorch-mask-rcnn"]
+	path = models/pytorch-mask-rcnn
+	url = https://github.com/multimodallearning/pytorch-mask-rcnn
+[submodule "models/faster-rcnn.pytorch"]
+	path = models/faster-rcnn.pytorch
+	url = https://github.com/jwyang/faster-rcnn.pytorch
+[submodule "models/facenet-pytorch"]
+	path = models/facenet-pytorch
+	url = https://github.com/timesler/facenet-pytorch
