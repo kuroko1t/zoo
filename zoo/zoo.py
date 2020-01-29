@@ -17,7 +17,6 @@ sys.path.remove(os.path.join(os.path.dirname(__file__), yolo_path))
 deeplab_path = 'models/pytorch_deeplab'
 sys.path.append(os.path.join(os.path.dirname(__file__), deeplab_path))
 from zoo.models.pytorch_deeplab.modeling.deeplab import DeepLab as TorchDeeplab
-from zoo.models.pytorch_deeplab.modeling.deeplab import Trainer as TorchTrainer
 sys.path.remove(os.path.join(os.path.dirname(__file__), deeplab_path))
 
 import torchvision.models as torch_models
@@ -45,10 +44,6 @@ class DeepLab(TorchDeeplab):
         super(DeepLab, self).__init__(backbone, output_stride, num_classes,
                                       sync_bn, freeze_bn)
 
-class Trainer(TorchTrainer):
-    def __init__(self, args):
-        super(Trainer, self).__init__(args)
-        
 def resnet18(pretrained=False, progress=True, **kwargs):
     return torch_models.resnet18(pretrained, progress, **kwargs)
 
