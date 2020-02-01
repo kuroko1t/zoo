@@ -39,4 +39,5 @@ facenet_model = Facenet(pretrained='vggface2').eval()
 resnet18_model = resnet18()
 ```
 
-# MIT
+# LICENSE
+MIT
