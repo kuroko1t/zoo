@@ -17,6 +17,15 @@ zoo pytorch models
 
 https://pytorch.org/docs/stable/torchvision/models.html
 
+# Install
+
+```
+git clone https://github.com/kuroko1t/zoo
+git submodule init
+git submodule update
+python setup.py install
+```
+
 # Usage
 
 Please refer to each project for details of usage.
