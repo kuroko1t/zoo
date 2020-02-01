@@ -34,7 +34,7 @@ Please refer to each project for details of usage.
 from zoo import Darknet, Facenet, DeepLab
 from zoo import resnet18, resnet101, vgg16
 
-yolo_model = Darknet('config')
+yolo_model = Darknet('zoo/models/pytorch_yolov3/config/yolov3-tiny.cfg')
 facenet_model = Facenet(pretrained='vggface2').eval()
 resnet18_model = resnet18()
 ```
