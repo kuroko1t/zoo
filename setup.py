@@ -15,11 +15,9 @@ def get_packages():
     return packages
 
 def get_requires():
-    requires = ["torch", 'torchvision', 'numpy']
+    requires = ['cython', "torch", 'torchvision', 'numpy', 'requests']
     yolo = ['tqdm', 'matplotlib']
-    deep_lab = ['pycocotools']
     requires += yolo
-    requires += deep_lab
     return requires
 
 setup(

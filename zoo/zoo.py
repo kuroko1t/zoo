@@ -32,7 +32,7 @@ sys.path.remove(os.path.join(os.path.dirname(__file__), facenet_path))
 # import yolo
 yolo_path = 'models/pytorch_yolov3'
 sys.path.append(os.path.join(os.path.dirname(__file__), yolo_path))
-from zoo.models.pytorch_yolov3.models import Darknet as darknet
+from zoo.models.pytorch_yolov3.models import Darknet as YoloDarknet
 sys.path.remove(os.path.join(os.path.dirname(__file__), yolo_path))
 
 # import deeplab
@@ -55,9 +55,9 @@ class MTCNN(TorchMTCNN):
                                     thresholds, factor, post_process,
                                     select_largest, keep_all, device)
         
-class Darknet(darknet):
+class Darknet(YoloDarknet):
     def __init__(self, config_path, img_size=416):
-        super(darknet, self).__init__(config_path, img_size)
+        super(YoloDarknet, self).__init__()
                 
 ### DeepLab ###
 class DeepLab(TorchDeeplab):
