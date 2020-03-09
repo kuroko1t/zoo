@@ -17,12 +17,11 @@ class name list
 
 ### Image Classification
 
-[ref](https://pytorch.org/docs/stable/torchvision/models.html)
-* resnet18
-* resnet101
-* vgg16
-* densenet161
-* inception
+* [resnet18](https://pytorch.org/docs/stable/torchvision/models.html)
+* [resnet101](https://pytorch.org/docs/stable/torchvision/models.html)
+* [vgg16](https://pytorch.org/docs/stable/torchvision/models.html)
+* [densenet161](https://pytorch.org/docs/stable/torchvision/models.html)
+* [inception](https://pytorch.org/docs/stable/torchvision/models.html)
 
 
 # Install
