@@ -4,22 +4,24 @@ zoo pytorch models
 
 # models
 
+class name list
+
 ### Image Semantic
-* class DeepLab ref:[DeepLabV3](https://github.com/jfzhang95/pytorch-deeplab-xception)
+* [DeepLab](https://github.com/jfzhang95/pytorch-deeplab-xception)
 
 ### Object Detection
-* class Darknet res:[YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+* [Darknet](https://github.com/eriklindernoren/PyTorch-YOLOv3)(YOLOv3)
 
 ### Face Recognition
-* class Facenet res:[facenet](https://github.com/timesler/facenet-pytorch)
+* [Facenet](https://github.com/timesler/facenet-pytorch)
 
 ### Image Classification
 
-* def resnet18
-* def resnet101
-* def vgg16
-* def densenet161
-* def inception
+* resnet18
+* resnet101
+* vgg16
+* densenet161
+* inception
 
 [ref](https://pytorch.org/docs/stable/torchvision/models.html)
 
