@@ -4,7 +4,7 @@ zoo pytorch models
 
 # models
 
-class name list
+zoo models class list
 
 ### Image Semantic
 * [DeepLab](https://github.com/jfzhang95/pytorch-deeplab-xception)
