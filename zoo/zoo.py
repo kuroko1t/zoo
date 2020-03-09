@@ -74,3 +74,9 @@ def resnet101(pretrained=False, progress=True, **kwargs):
 
 def vgg16(pretrained=False, progress=True, **kwargs):
     return torch_models.vgg16(pretrained, progress, **kwargs)
+
+def densenet161(pretrained=False, progress=True, **kwargs):
+    return torch_models.densenet161(pretrained, progress, **kwargs)
+
+def inception(pretrained=False, progress=True, **kwargs):
+    return torch_models.inception_v3(pretrained, progress, **kwargs)
